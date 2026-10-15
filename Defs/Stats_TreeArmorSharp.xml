@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <StatDef>
+    <defName>TSA_TreeArmorSharp</defName>
+    <label>Tree Armor (Sharp)</label>
+    <description>Effective sharp armor thickness derived from tree HP, fill percent, and growth.</description>
+    <category>Basics</category>
+    <toStringStyle>FloatTwo</toStringStyle>
+    <defaultBaseValue>0</defaultBaseValue>
+    <showIfUndefined>true</showIfUndefined>
+    <workerClass>TSA.CE.BulletsPenetrateTrees.StatWorker_TreeArmorSharp</workerClass>
+    <displayPriorityInCategory>5</displayPriorityInCategory>
+  </StatDef>
+</Defs>
